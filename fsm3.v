@@ -1,4 +1,4 @@
-module fsm3				// Design a sequential circuit that detects consecutive inputs: "1" 
+module fsm3			// Design a sequential circuit that detects consecutive inputs: "1" 
 ( input clk, rst,		// and directly followed by '0'. The overlapped sequence is permitted.
   input in,
   output z
